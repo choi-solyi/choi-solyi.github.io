@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="src/style.css"
+    />
+  </head>
+
+  <body>
+    <div>
+      <form
+        class="hidden"
+        id="login-form"
+      >
+        <input
+          type="text"
+          placeholder="What is your name?"
+          required
+        />
+        <button id="loginBtn">login</button>
+      </form>
+      <h1
+        class="hidden"
+        id="greeting"
+      >
+        hi
+      </h1>
+    </div>
+    <div>
+      <h4 class="js-clock"></h4>
+    </div>
+    <div>
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a todo and press enter"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="src/js/index.js"></script>
+    <script src="src/js/clock.js"></script>
+    <script src="src/js/quotes.js"></script>
+    <script src="src/js/todo.js"></script>
+    <script src="src/js/weather.js"></script>
+  </body>
+</html>
